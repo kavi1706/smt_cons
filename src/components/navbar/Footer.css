@@ -1,0 +1,343 @@
+.foot{
+    padding-left: 60px;
+    color: white;
+    display: flex;
+    background-color: #14213d;
+    border-top-left-radius: 250px;
+    align-items: top;
+    padding-top: 100px;
+    justify-content: space-between;
+    column-gap: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.foot h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: justify;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.two a{
+    color: white;
+}
+
+.three{
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.three input{
+    padding:10px;
+}
+.three button{
+    margin-top: 10px;
+    border: solid 0px;
+    background-color: #fca311;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (max-width:822px){
+    .slideshow-container{
+        width:820px;
+    }
+    .navbar{
+        width: 818px;
+    }
+    .navbar-middle{
+        display: flex;
+        flex-direction: row;
+    }
+    .title{
+        display:none;
+    }
+    .services-grid{
+        margin-left: 0px;
+        gap:20px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .one,.two,.three{
+        margin-left: 80px;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .four{
+        margin-top: 30px;
+        margin-left:80px;
+    }
+    .one{
+        margin-top: 0px;
+    }
+    .reviews{
+        width:100vw;
+    }
+}
+
+  /* media query for mobile*/
+  @media screen and (max-width:482px){
+    
+    .navbar{
+       width: 100vw;
+        margin-right: 0px;
+    }
+    .navbar-middle{
+        display: none;
+    }
+    .navbar-right{
+        margin-right: 0px;
+    }
+    .title{
+        display: none;
+    }
+    .navbar-middle{
+        display: none;
+    }
+    .bar{
+        display:block;
+        margin-right: 25px;
+        cursor:pointer;
+    }
+    .slideshow-container{
+        margin-left: 0px;
+        width: 100vw;
+    }
+    .services{
+        width: 100vw;
+        margin-left: 40px;
+    }
+    .services-grid{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .manufacture{
+        display: flex;
+        flex-direction: column;
+        height:500px;
+        width: 100vw;
+        border-top-right-radius:100px;
+    }
+    .manufacture img{
+       width: 100vw;
+    }
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 1020px;
+    }
+    .reviews-grid{
+        display: flex;
+        margin-left: 40px;
+        flex-direction: column;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 100vw;
+        padding:30px;
+    }
+    .two,.three,.four{
+    margin-left:20px;
+    margin-top: 20px;
+    }
+    .one{
+        margin-left:20px;
+    }
+    .one h3{
+        flex-wrap: wrap;
+    }
+    .last{
+        width: 100vw;
+        text-align: center;
+    }
+  }
+
+
+  @media all and (max-width:1205px){
+    .slideshow-container{
+        width:1200px;
+    }
+  }
+  @media all and (max-width:1092px){
+    .slideshow-container{
+        width:1092px;
+    }
+  }
+  @media all and (max-width:1011px){
+    .slideshow-container{
+        max-width:800px;
+    }
+  }
+  @media all and (max-width:1140px){
+    .slideshow-container{
+        max-width:1000px;
+    }
+  }
+  @media all and (max-width:990px){
+    .slideshow-container{
+        max-width:800px;
+    }
+  }
+  @media all and (max-width:960px){
+    .services-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+  }
+
+  @media all and (max-width:855px){
+    .title{
+        display: none;
+    }
+  }
+  @media all and (max-width:815px)
+  {
+    .navbar{
+        width:100vw;
+    }
+    .foot{
+        display: flex;
+        width:100vw;
+    }
+    .services-grid{
+        margin-left:10vw;
+    }
+    .slideshow-container{
+        margin-left: 1vw;
+        width:98vw;
+    }
+  }
+  @media all and (max-width:752px){
+    .foot{
+        width:100vw;
+    }
+    .last{
+        width:105vw;
+    }
+  }
+  @media all and (max-width:820px)
+  {
+    
+   .foot{
+    display: flex;
+   }
+   .manufacture{
+    display: flex;
+    flex-direction: column;
+    height:60vh;
+    padding-top:60px;
+   }
+   .last{
+    width:100vw;
+   }
+  }
+  @media all and (max-width:625px){
+    
+    .navbar-middle{
+     display: none;
+    }
+    .bar{
+        display: block;
+        margin-right:25px;
+        cursor:pointer;
+    }
+    .manufacture{
+        padding-top:15vw;
+        height:65vh;
+    }
+  }
+  @media all and (max-width:595px){
+    .navbar-middle{
+        display: none;
+     }
+     .bar{
+         display:block;
+         margin-right: 25px;
+         cursor:pointer;
+     }
+     .reviews{
+        height: 80vh;
+     }
+     .one{
+        width:70vw;
+     }
+  }
+  
+  @media all and (max-width:485px){
+    .services{
+        margin-left: 2vw;
+    }
+    .services-grid{
+        margin-left:6vw;
+    }
+    .reviews{
+        height: 120vh;
+    }
+  }
+  @media all and (max-width:430px){
+    .services-grid,.reviews-grid{
+        margin-left:0px;
+    }
+    
+    .foot{
+        margin-top:0vh;
+    }
+    
+  }
+  @media all and (max-width:400px){
+    .services-grid{
+        grid-template-columns: auto; 
+        margin-left:5vw;       
+    }
+    .manufacture{
+        min-height:100vh;
+    }
+    .reviews{
+        width:100vw;
+    }
+}
+ @media all and (max-width:376px){
+    .foot{
+        margin-top: 30vh;
+    }
+
+ }
+  @media all and (max-width:321px){
+    .services-grid{
+        grid-template-columns: auto; 
+        margin-left:5vw;       
+    }
+    .manufacture{
+        height:100vh;
+    }
+    .reviews{
+        min-height:160vh;
+    }
+    .two,.three,.four{
+    margin-left:20px;
+    margin-top: 20px;
+    }
+    .one{
+        margin-left:20px;
+    }
+    
+  }
+  

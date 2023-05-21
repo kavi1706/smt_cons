@@ -1,0 +1,46 @@
+.contact-container{
+    display: flex;
+}
+.about{
+    display: flex;
+}
+.fh3{
+    font-size: 40px;
+    margin-left:100px;
+    margin-top:50px;
+    
+}
+.form1 input{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px;
+    margin-left:100px;
+    margin-bottom:30px;
+    border:2px solid black;
+    padding:15px;
+    width:80%;
+}
+.form1 input::placeholder{
+  font-size:18px;
+}
+.msg{
+    height:100px;
+}
+.map iframe{
+    display: flex;
+    margin-top:60px;
+    margin-left:6rem;
+    width: 50vw;
+    height: 40vw;
+}
+.btn{
+    margin-left:100px;
+    border:1px solid white;
+    background-color:#14213d;
+    color:white;
+    padding:15px;
+    border-radius: 10px;
+}
+.form1 a{
+    margin-top:30px;
+}

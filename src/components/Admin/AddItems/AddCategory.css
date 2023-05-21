@@ -1,0 +1,7 @@
+.addcategory-form
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto 30%;
+    gap: 3vh
+}

@@ -1,0 +1,15 @@
+const express=require("express")
+const routes=express.Router()
+const Product=require('../models/product')
+const Image=require("../models/image")
+const ProductType=require("../models/type")
+const Category=require("../models/category")
+const multer = require("multer")
+const fs=require("fs")
+const { log } = require("console")
+const User = require("../models/users")
+const app=express()
+const bcrypt=require("bcrypt")
+const { json } = require("body-parser")
+
+

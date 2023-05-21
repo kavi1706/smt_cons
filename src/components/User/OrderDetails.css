@@ -1,0 +1,31 @@
+.orders {
+    margin: 2rem 0;
+  }
+  
+  .orders h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .orders table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .orders table th {
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #14213d;
+    color: #fff;
+  }
+  
+  .orders table td {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .orders table tr:hover td {
+    background-color: #f2f2f2;
+  }
+  
