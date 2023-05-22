@@ -28,7 +28,7 @@ app.use('/rice1/users',require("./routes/users.js"))
 app.use('/tsir/purchase',require("./routes/purchase.js"))
 app.use('/tsir/gallery',require("./routes/gallery.js"))
 
-app.listen(3000,()=>{
+app.listen(5000||3000,()=>{
     console.log("connected")
 })
 
