@@ -2,7 +2,7 @@
     padding-left: 60px;
     color: white;
     display: flex;
-    background-color: #14213d;
+    background-color:black;
     border-top-left-radius: 250px;
     align-items: top;
     padding-top: 100px;
@@ -40,7 +40,7 @@
 .three button{
     margin-top: 10px;
     border: solid 0px;
-    background-color: #fca311;
+    background-color:gray;
     padding: 10px;
     cursor: pointer;
     color: white;

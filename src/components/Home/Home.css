@@ -43,7 +43,7 @@
     text-align: center;
 }
 .services-grid-box:hover{
-    background-color: #fca311;
+    background-color: grey;
     color: white;
     border-color:#14213d;
 }
@@ -76,7 +76,7 @@
     width: 30em;
 }
 .manufacture h3{
-  color: #fca311;
+  color:black;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -106,7 +106,7 @@
 
 }
 .reviews-grid-box:hover{
-    background-color: #fca211;
+    background-color:grey;
     color: white;
     border-color:#14213d;
 }

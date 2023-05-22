@@ -4,21 +4,24 @@
     margin-bottom: 10px;
 }
 .aboutus {
-    color: white;
+    color:black;
     margin-top: 100px;
     margin-bottom: 50px;
     padding: 100px 50px;
-    background-color: #14213d;
+    /* background-color: #14213d; */
     height: 300px;
     display: flex;
     align-items: center;
+   
     text-overflow: clip;
     border-radius: 0px 300px 0px 0px;
 }
+
 .aboutus img{
-    width: 25em;
+    width: 45em;
     padding-right: 100px;
+    float:left;
 }
 .aboutus-flex p{
-    font-size: 20px;
+    font-size: 30px;
 }
